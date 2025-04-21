@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schedule</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="script.js"></script>
+  <style>
+    th,
+    td,
+    table {
+      border: 1px solid black;
+      border-collapse: collapse;
+      margin: auto;
+    }
+
+    th {
+      background-color: rgba(0, 255, 255, 0.304);
+      padding: 10px;
+    }
+
+    td {
+      padding: 5px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body class="font-poppins flex flex-col min-h-screen ">
+  <!-- FOOTER -->
+  <div id="header-placeholder"></div>
+
+  <main class="p-6 flex-grow">
+    <h2 class="text-xl font-bold pb-6">Jadwal Mingguan</h2>
+    <table class="mb-10">
+      <!-- ROW 1 -->
+      <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+      </tr>
+      <!-- ROW 2 -->
+      <tr>
+        <td><b>07:30-09:10</b></td>
+        <td>MAPEN_G2</td>
+        <td>TI_G2</td>
+        <td></td>
+        <td></td>
+        <td>PDT_G2</td>
+      </tr>
+      <!--  ROW 3 -->
+      <tr>
+        <td><b>09:15-10:55</b></td>
+        <td>TAM_G2</td>
+        <td>ADSI_G2</td>
+        <td>IOT(R)_L1</td>
+        <td>ML_GC</td>
+        <td>ML(R)_MB</td>
+      </tr>
+      <!--  ROW 4 -->
+      <tr>
+        <td><b>11:00-12:40</b></td>
+        <td></td>
+        <td>AI_G2</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <!-- ROW 5 -->
+      <tr>
+        <td><b>13:55-15:35</b></td>
+        <td>IOT_GB</td>
+        <td>AI_MA</td>
+        <td>PEMDEK(R)_RPL</td>
+        <td>ADSI(R)_MB</td>
+        <td>TAM(R)_L1</td>
+      </tr>
+      <!-- ROW 6 -->
+      <tr>
+        <td><b>15:50-17:30</b></td>
+        <td>PDT(R)_L1</td>
+        <td>PEMDEK_GB</td>
+        <td></td>
+        <td>WEB(R)_L1</td>
+        <td>WEB_GC</td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <th>KODE</th>
+        <th>GA</th>
+        <th>GB</th>
+        <th>GC</th>
+        <th>G2</th>
+        <th>MA</th>
+        <th>MB</th>
+        <th>L1</th>
+        <th>L3</th>
+      </tr>
+      <tr>
+        <th>LOKASI</th>
+        <td>GIK L1 A</td>
+        <td>GIK L1 B</td>
+        <td>GIK L1 C</td>
+        <td>GIK L2</td>
+        <td>MIPA L1A</td>
+        <td>MIPA L1B</td>
+        <td>LAB R1</td>
+        <td>LAB R3</td>
+      </tr>
+    </table>
+  </main>
+
+  <!-- FOOTER -->
+  <div id="footer-placeholder"></div>
+</body>
+
+</html>
